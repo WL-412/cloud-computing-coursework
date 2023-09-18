@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 ########################################
 # Constants
 ########################################
-with open('python/task1/horizontal-scaling-config.json') as file:
+with open('horizontal-scaling-config.json') as file:
     configuration = json.load(file)
 
 LOAD_GENERATOR_AMI = configuration['load_generator_ami']
