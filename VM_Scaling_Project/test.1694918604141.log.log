@@ -1,0 +1,90 @@
+; 2023-09-17T02:43:24+00:00
+; Horizontal Scaling Test
+; isTestingThroughCode=true
+; Test launched. Please check every minute for update.
+; Your goal is to achieve rps=50 in 30 min
+; Minimal interval of adding instances is 100 sec
+[Test]
+type=horizontal
+testId=1694918604141
+testFile=test.1694918604141.log
+startTime=2023-09-17T02:43:24+00:00
+
+[Minute 1]
+ec2-54-227-110-188.compute-1.amazonaws.com=11.88
+[Current rps=11.88]
+
+[Minute 2]
+ec2-54-227-110-188.compute-1.amazonaws.com=9.30
+[Current rps=9.30]
+
+[Minute 3]
+ec2-54-227-110-188.compute-1.amazonaws.com=9.08
+[Current rps=9.08]
+
+[Minute 4]
+ec2-54-227-110-188.compute-1.amazonaws.com=12.28
+ec2-54-242-254-141.compute-1.amazonaws.com=11.65
+[Current rps=23.93]
+
+[Minute 5]
+ec2-54-227-110-188.compute-1.amazonaws.com=11.23
+ec2-54-242-254-141.compute-1.amazonaws.com=11.85
+ec2-54-211-63-213.compute-1.amazonaws.com=13.43
+[Current rps=36.51]
+
+[Minute 6]
+ec2-54-227-110-188.compute-1.amazonaws.com=11.95
+ec2-54-242-254-141.compute-1.amazonaws.com=14.55
+ec2-54-211-63-213.compute-1.amazonaws.com=12.46
+[Current rps=38.96]
+
+[Minute 7]
+ec2-54-227-110-188.compute-1.amazonaws.com=14.71
+ec2-54-242-254-141.compute-1.amazonaws.com=11.40
+ec2-54-211-63-213.compute-1.amazonaws.com=12.26
+ec2-54-164-37-51.compute-1.amazonaws.com=13.35
+[Current rps=51.72]
+
+[Load Generator]
+username=null
+platform=AWS
+instanceId=i-0de1362274bc12b37
+instanceType=m5.large
+hostname=ec2-54-235-17-170.compute-1.amazonaws.com
+passwd=DpISNQHmsj8ErEhjcIUyLC
+
+[Web Service 0]
+username=null
+platform=AWS
+instanceId=i-0befe1389fbde4674
+instanceType=m5.large
+hostname=ec2-54-227-110-188.compute-1.amazonaws.com
+
+[Web Service 1]
+username=null
+platform=AWS
+instanceId=i-05777371083c9ca88
+instanceType=m5.large
+hostname=ec2-54-242-254-141.compute-1.amazonaws.com
+
+[Web Service 2]
+username=null
+platform=AWS
+instanceId=i-0d40e8a3a92940eb4
+instanceType=m5.large
+hostname=ec2-54-211-63-213.compute-1.amazonaws.com
+
+[Web Service 3]
+username=null
+platform=AWS
+instanceId=i-04c5399dbc7624c3d
+instanceType=m5.large
+hostname=ec2-54-164-37-51.compute-1.amazonaws.com
+
+; MSB is validating....
+[Test End]
+endTime=2023-09-17T02:50:29+00:00
+rps=51.72
+pass=true
+[Test finished]

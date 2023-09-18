@@ -1,0 +1,16 @@
+; 2023-09-17T02:07:18+00:00
+; Horizontal Scaling Test
+; isTestingThroughCode=true
+; Test launched. Please check every minute for update.
+; Your goal is to achieve rps=50 in 30 min
+; Minimal interval of adding instances is 100 sec
+[Test]
+type=horizontal
+testId=1694916438783
+testFile=test.1694916438783.log
+startTime=2023-09-17T02:07:18+00:00
+
+[Minute 1]
+ec2-34-204-44-13.compute-1.amazonaws.com=11.40
+[Current rps=11.40]
+

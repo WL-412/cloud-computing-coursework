@@ -2,9 +2,21 @@
     "referenceGuide" : "Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble. Read JSON grammar from Internet if needed.",
     "websites":[  
         {  
-            "title":"<title of the page>",
-            "url":"<url>",
-            "code":"<in which code you use the snippet or the idea>",
+            "title":"<AWS boto3 documentation>",
+            "url":"<https://boto3.amazonaws.com/v1/documentation/api/latest/index.html>",
+            "code":"<all code related to AWS api>",
+            "description":"<additional information you find it necessary to provide>"
+        },
+        {
+            "title":"<Guide to Parsing HTML with BeautifulSoup in Python>",
+            "url":"<https://stackabuse.com/guide-to-parsing-html-with-beautifulsoup-in-python/>",
+            "code":"<initialize_test function>",
+            "description":"<additional information you find it necessary to provide>"
+        },
+        {
+            "title":"<Can't subtract offset-naive and offset-aware datetimes>",
+            "url":"<https://stackoverflow.com/questions/796008/cant-subtract-offset-naive-and-offset-aware-datetimes>",
+            "code":"<last_launch_time_naive = last_launch_time.replace(tzinfo=None)>",
             "description":"<additional information you find it necessary to provide>"
         }
     ],

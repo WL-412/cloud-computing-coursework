@@ -1,0 +1,41 @@
+; 2023-09-17T02:11:45+00:00
+; Horizontal Scaling Test
+; isTestingThroughCode=true
+; Test launched. Please check every minute for update.
+; Your goal is to achieve rps=50 in 30 min
+; Minimal interval of adding instances is 100 sec
+[Test]
+type=horizontal
+testId=1694916705398
+testFile=test.1694916705398.log
+startTime=2023-09-17T02:11:45+00:00
+
+[Minute 1]
+ec2-3-90-205-37.compute-1.amazonaws.com=13.31
+[Current rps=13.31]
+
+[Minute 2]
+ec2-3-90-205-37.compute-1.amazonaws.com=10.61
+[Current rps=10.61]
+
+[Minute 3]
+ec2-3-90-205-37.compute-1.amazonaws.com=10.11
+[Current rps=10.11]
+
+[Minute 4]
+ec2-3-90-205-37.compute-1.amazonaws.com=11.61
+ec2-52-90-61-46.compute-1.amazonaws.com=12.81
+[Current rps=24.42]
+
+[Minute 5]
+ec2-3-90-205-37.compute-1.amazonaws.com=9.63
+ec2-52-90-61-46.compute-1.amazonaws.com=12.88
+ec2-3-89-29-1.compute-1.amazonaws.com=12.53
+[Current rps=35.04]
+
+[Minute 6]
+ec2-3-90-205-37.compute-1.amazonaws.com=10.60
+ec2-52-90-61-46.compute-1.amazonaws.com=11.90
+ec2-3-89-29-1.compute-1.amazonaws.com=12.93
+[Current rps=35.43]
+

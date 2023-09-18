@@ -1,5 +1,5 @@
 {
-  "load_generator_ami": "",
-  "web_service_ami": "",
+  "load_generator_ami": "ami-0d196471a996e58d6",
+  "web_service_ami": "ami-09400c18bd0c0f94f",
   "instance_type": "m5.large"
 }
